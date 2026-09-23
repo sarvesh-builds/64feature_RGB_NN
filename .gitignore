@@ -20,3 +20,36 @@ dataset/
 # OS
 .DS_Store
 Thumbs.db
+
+# =========================
+# Vitis HLS generated files
+# =========================
+**/_ide/
+**/.ide/
+**/.debug/
+**/csim/
+**/sim/
+**/syn/
+**/impl/
+**/.autopilot/
+**/reports/
+
+*.hlscompile_summary
+*.hlsrun_*
+compile_commands.json
+config.cmdline
+hls_data.json
+vitis-comp.json
+**/logs/
+
+# =========================
+# Vivado generated files
+# =========================
+**/.Xil/
+**/*.runs/
+**/*.cache/
+**/*.hw/
+**/*.ip_user_files/
+**/*.gen/
+*.xpr
+*.dcp
